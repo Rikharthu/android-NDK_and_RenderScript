@@ -1,0 +1,6 @@
+D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/native_app_glue.dir
+D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/features.dir
+D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/cpufeatures.dir
+D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/native-activity.dir
+D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/edit_cache.dir
+D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/rebuild_cache.dir

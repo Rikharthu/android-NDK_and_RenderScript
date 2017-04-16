@@ -1,0 +1,92 @@
+
+{
+	"buildFiles" : [ "D:/8-1.AddingNativeBitswithJNI/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\Development\\Android\\android-sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\8-1.AddingNativeBitswithJNI\\app\\.externalNativeBuild\\cmake\\debug\\mips --target clean"
+	],
+	"libraries" : 
+	{
+		"cpufeatures-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "cpufeatures",
+			"buildCommand" : "D:\\Development\\Android\\android-sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\8-1.AddingNativeBitswithJNI\\app\\.externalNativeBuild\\cmake\\debug\\mips --target cpufeatures",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain D:/Development/Android/android-sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Development/Android/android-sdk/ndk-bundle/platforms/android-19/arch-mips  -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\cpufeatures -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\native_app_glue  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/Development/Android/android-sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c",
+					"workingDirectory" : "D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/debug/mips/libcpufeatures.a",
+			"toolchain" : "2665957381"
+		},
+		"features-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "features",
+			"buildCommand" : "D:\\Development\\Android\\android-sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\8-1.AddingNativeBitswithJNI\\app\\.externalNativeBuild\\cmake\\debug\\mips --target features",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain D:/Development/Android/android-sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Development/Android/android-sdk/ndk-bundle/platforms/android-19/arch-mips -Dfeatures_EXPORTS -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\cpufeatures -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\native_app_glue  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/8-1.AddingNativeBitswithJNI/app/src/main/jni/NativeLib.c",
+					"workingDirectory" : "D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "D:/8-1.AddingNativeBitswithJNI/app/build/intermediates/cmake/debug/obj/mips/libfeatures.so",
+			"toolchain" : "2665957381"
+		},
+		"native-activity-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "native-activity",
+			"buildCommand" : "D:\\Development\\Android\\android-sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\8-1.AddingNativeBitswithJNI\\app\\.externalNativeBuild\\cmake\\debug\\mips --target native-activity",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain D:/Development/Android/android-sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Development/Android/android-sdk/ndk-bundle/platforms/android-19/arch-mips -Dnative_activity_EXPORTS -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\cpufeatures -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\native_app_glue  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/8-1.AddingNativeBitswithJNI/app/src/main/jni/activity.c",
+					"workingDirectory" : "D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "D:/8-1.AddingNativeBitswithJNI/app/build/intermediates/cmake/debug/obj/mips/libnative-activity.so",
+			"toolchain" : "2665957381"
+		},
+		"native_app_glue-Debug-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "native_app_glue",
+			"buildCommand" : "D:\\Development\\Android\\android-sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\8-1.AddingNativeBitswithJNI\\app\\.externalNativeBuild\\cmake\\debug\\mips --target native_app_glue",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target mipsel-none-linux-android -gcc-toolchain D:/Development/Android/android-sdk/ndk-bundle/toolchains/mipsel-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=D:/Development/Android/android-sdk/ndk-bundle/platforms/android-19/arch-mips  -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\cpufeatures -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\native_app_glue  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC      -c ",
+					"src" : "D:/Development/Android/android-sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+					"workingDirectory" : "D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/debug/mips"
+				}
+			],
+			"output" : "D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/debug/mips/libnative_app_glue.a",
+			"toolchain" : "2665957381"
+		}
+	},
+	"toolchains" : 
+	{
+		"2665957381" : 
+		{
+			"cCompilerExecutable" : "D:/Development/Android/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Development/Android/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

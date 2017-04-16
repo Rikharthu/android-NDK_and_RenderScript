@@ -1,0 +1,92 @@
+
+{
+	"buildFiles" : [ "D:/8-1.AddingNativeBitswithJNI/app/CMakeLists.txt" ],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"D:\\Development\\Android\\android-sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\8-1.AddingNativeBitswithJNI\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target clean"
+	],
+	"libraries" : 
+	{
+		"cpufeatures-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "cpufeatures",
+			"buildCommand" : "D:\\Development\\Android\\android-sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\8-1.AddingNativeBitswithJNI\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target cpufeatures",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain D:/Development/Android/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Development/Android/android-sdk/ndk-bundle/platforms/android-19/arch-arm  -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\cpufeatures -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\native_app_glue  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/Development/Android/android-sdk/ndk-bundle/sources/android/cpufeatures/cpu-features.c",
+					"workingDirectory" : "D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/release/armeabi/libcpufeatures.a",
+			"toolchain" : "2665957381"
+		},
+		"features-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "features",
+			"buildCommand" : "D:\\Development\\Android\\android-sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\8-1.AddingNativeBitswithJNI\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target features",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain D:/Development/Android/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Development/Android/android-sdk/ndk-bundle/platforms/android-19/arch-arm -Dfeatures_EXPORTS -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\cpufeatures -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\native_app_glue  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/8-1.AddingNativeBitswithJNI/app/src/main/jni/NativeLib.c",
+					"workingDirectory" : "D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "D:/8-1.AddingNativeBitswithJNI/app/build/intermediates/cmake/release/obj/armeabi/libfeatures.so",
+			"toolchain" : "2665957381"
+		},
+		"native-activity-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native-activity",
+			"buildCommand" : "D:\\Development\\Android\\android-sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\8-1.AddingNativeBitswithJNI\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target native-activity",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain D:/Development/Android/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Development/Android/android-sdk/ndk-bundle/platforms/android-19/arch-arm -Dnative_activity_EXPORTS -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\cpufeatures -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\native_app_glue  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/8-1.AddingNativeBitswithJNI/app/src/main/jni/activity.c",
+					"workingDirectory" : "D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "D:/8-1.AddingNativeBitswithJNI/app/build/intermediates/cmake/release/obj/armeabi/libnative-activity.so",
+			"toolchain" : "2665957381"
+		},
+		"native_app_glue-Release-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "native_app_glue",
+			"buildCommand" : "D:\\Development\\Android\\android-sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\8-1.AddingNativeBitswithJNI\\app\\.externalNativeBuild\\cmake\\release\\armeabi --target native_app_glue",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  -target armv5te-none-linux-androideabi -gcc-toolchain D:/Development/Android/android-sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=D:/Development/Android/android-sdk/ndk-bundle/platforms/android-19/arch-arm  -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\cpufeatures -ID:\\Development\\Android\\android-sdk\\ndk-bundle\\sources\\android\\native_app_glue  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -Os -DNDEBUG -Os -DNDEBUG  -fPIC      -c ",
+					"src" : "D:/Development/Android/android-sdk/ndk-bundle/sources/android/native_app_glue/android_native_app_glue.c",
+					"workingDirectory" : "D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/release/armeabi"
+				}
+			],
+			"output" : "D:/8-1.AddingNativeBitswithJNI/app/.externalNativeBuild/cmake/release/armeabi/libnative_app_glue.a",
+			"toolchain" : "2665957381"
+		}
+	},
+	"toolchains" : 
+	{
+		"2665957381" : 
+		{
+			"cCompilerExecutable" : "D:/Development/Android/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "D:/Development/Android/android-sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}
