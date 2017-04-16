@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/image_normal"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"/>
+
+            <ImageView
+                android:id="@+id/image_blurred"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"/>
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/image_greyscale"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"/>
+
+            <ImageView
+                android:id="@+id/image_sharpen"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"/>
+        </TableRow>
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/image_edge"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"/>
+
+            <ImageView
+                android:id="@+id/image_emboss"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:scaleType="fitCenter"/>
+        </TableRow>
+    </TableLayout>
+</ScrollView>
